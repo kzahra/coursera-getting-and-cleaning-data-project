@@ -29,7 +29,6 @@ In this section the following steps are performed
 In this section the following steps are performed
   - Get column names (variable: `col_names`)
   - Create a logicalVector containing TRUE values for required columns and FALSE for others (variable: `l_vector`)
-  - Unzip file if the "UCI HAR Dataset" does not exist in working directory
   - Keep only required columns based on the logical vector TRUE values
   - Merge the dataset with the activity table to name the activities in the dataset
   - Update the `col_names` vector to include the new activity column
